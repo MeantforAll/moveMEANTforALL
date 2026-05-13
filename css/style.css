@@ -180,3 +180,43 @@ header {
     }
 
 }
+/* SERVICES SECTION */
+
+.services {
+    padding: 80px 0;
+    background-color: #f9fafb;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--text);
+}
+
+.service-cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
