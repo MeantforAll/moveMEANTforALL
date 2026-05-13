@@ -1,3 +1,14 @@
+:root {
+    --blue: #2563eb;
+    --yellow: #facc15;
+    --red: #ef4444;
+    --orange: #f97316;
+
+    --text: #333333;
+    --bg: #ffffff;
+    --border: #e5e5e5;
+}
+
 /* RESET */
 
 * {
