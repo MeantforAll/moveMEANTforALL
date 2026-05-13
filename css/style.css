@@ -1,3 +1,171 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b3df5;
+}
+
+/* NAV LINKS */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #5b3df5;
+}
+
+/* HERO SECTION */
+
+.hero {
+    padding: 80px 0;
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* HERO TEXT */
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: #222222;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #555555;
+}
+
+/* HERO BUTTONS */
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+/* BUTTONS */
+
+.btn-primary,
+.btn-secondary {
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #5b3df5;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #4528d6;
+}
+
+.btn-secondary {
+    border: 2px solid #5b3df5;
+    color: #5b3df5;
+}
+
+.btn-secondary:hover {
+    background-color: #5b3df5;
+    color: white;
+}
+
+/* HERO IMAGE */
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
 }
