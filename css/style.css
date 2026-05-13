@@ -220,3 +220,61 @@ header {
 .card p {
     color: #555;
 }
+/* PAGE TITLE */
+
+.page-title {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.page-title h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.page-title p {
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* SERVICES PAGE */
+
+.services-page {
+    padding: 40px 0 80px;
+}
+
+.service-block {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.service-block h2 {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.service-block p {
+    color: #555;
+}
+
+/* CTA SECTION */
+
+.cta {
+    background: var(--blue);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta .btn-primary {
+    background: white;
+    color: var(--blue);
+}
