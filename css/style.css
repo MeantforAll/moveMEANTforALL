@@ -166,7 +166,9 @@ header {
         flex-direction: column;
         gap: 20px;
     }
-
+.service-cards {
+    grid-template-columns: 1fr;
+}
     .hero-content {
         flex-direction: column;
     }
@@ -195,7 +197,8 @@ header {
 }
 
 .service-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
