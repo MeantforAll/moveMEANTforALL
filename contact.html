@@ -44,22 +44,29 @@
 
         <div class="container">
 
-            <form class="contact-form">
+            <form class="contact-form" action="https://formspree.io/f/mykoqnae" method="POST">
 
-                <label>Name</label>
-                <input type="text" placeholder="Your name">
+            <label>Name</label>
+<input type="text" name="name" placeholder="Your name" required>
 
-                <label>Email</label>
-                <input type="email" placeholder="Your email">
+<label>Email</label>
+<input type="email" name="email" placeholder="Your email" required>
 
-                <label>Who is this for?</label>
-                <select>
-                    <option>Personal Training</option>
-                    <option>School Program</option>
-                    <option>Group Home</option>
-                    <option>Private / Home Gym</option>
-<option>Community Organization / Partnership</option>
-                </select>
+<label>Who is this for?</label>
+<select name="service">
+    <option>Personal Training</option>
+    <option>School Program</option>
+    <option>Group Home</option>
+    <option>Private / Home Gym</option>
+    <option>Community Organization / Partnership</option>
+</select>
+
+<label>Message</label>
+<textarea name="message" rows="6" placeholder="Tell me a bit about your needs..." required></textarea>
+
+<button type="submit" class="btn-primary">
+    Send Message
+</button>
 
                 <label>Message</label>
                 <textarea rows="6" placeholder="Tell me a bit about your needs..."></textarea>
