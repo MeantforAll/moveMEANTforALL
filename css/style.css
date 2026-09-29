@@ -2753,3 +2753,19 @@ p {
     }
 
 }
+@media (max-width: 600px) {
+
+    .header-location {
+        width: 100%;
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
+    .header-location span {
+        white-space: normal;
+        display: block;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+}
